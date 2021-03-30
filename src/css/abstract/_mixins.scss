@@ -1,0 +1,47 @@
+@import "./variables";
+
+@mixin calc-dimension($property, $value, $ref: 1220px, $base: 100vw) {
+  #{$property}: $value * $base / $ref;
+}
+
+
+@mixin breakpoint($viewport-size) {
+  @if $viewport-size=='mid' {
+    @media screen and (min-width: $mid-bp) {
+      @content;
+    }
+  }
+
+  @if $viewport-size=='large' {
+    @media screen and (min-width: $large-bp) {
+      @content;
+    }
+  }
+}
+
+@mixin turn_approved {
+  @keyframes turn_approved {
+    from {
+      transform: rotateX(180deg) rotateY(180deg);
+      background-color: $orange-color;
+    }
+    to {
+      transform: rotate(0);
+      background-color: $blue-light-color;
+    }
+  }
+}
+
+@mixin remove_approved {
+  @keyframes remove_approved {
+      from {
+        transform: rotate(0);
+        background-color: $blue-light-color;
+      }
+
+      to {
+        transform: rrotateX(180deg) rotateY(180deg);
+        background-color: $orange-color;
+      }
+  }
+}

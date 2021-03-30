@@ -1,0 +1,15 @@
+@import "fonts";
+@import "abstract/mixins";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'LightLato', 'sans-serif';
+  font-size: 10px;
+
+  @include breakpoint($mid-viewport) {
+    @include calc-dimension(font-size, 10px);
+  }
+}
+

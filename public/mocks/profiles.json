@@ -1,0 +1,34 @@
+{
+    "profiles": [
+        {
+            "id": 1,
+            "name": "Kanye West",
+            "area": "Entertaiment",
+            "lengthInArea": "1 month",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "approval": 70,
+            "disapproval": 30,
+            "image": "./assets/images/kanye-west.png"
+        },
+        {
+            "id": 2,
+            "name": "Mark Zuckerberg",
+            "area": "Business",
+            "lengthInArea": "1 month",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "approval": 30,
+            "disapproval": 70,
+            "image": "./assets/images/mark-zuckerberg.png"
+        },
+        {
+            "id": 3,
+            "name": "Cristina Fernandez",
+            "area": "Politics",
+            "lengthInArea": "1 month",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "approval": 25,
+            "disapproval": 75,
+            "image": "./assets/images/cristina-fernandez.png"
+        }
+    ]
+}
